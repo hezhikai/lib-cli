@@ -1,8 +1,8 @@
 const child_process = require('child_process');
-const chalk = require('bin/utils/chalk');
-const rimraf = require('bin/utils/rimraf');
+const chalk = require('chalk');
+const rimraf = require('rimraf');
 const fs = require('fs');
-const changeCase = require('bin/utils/change-case');
+const changeCase = require('change-case');
 
 const pipeAsyncFunctions = (...fns) => (arg) =>
   fns.reduce((p, f) => p.then(f), Promise.resolve(arg));
