@@ -1,5 +1,5 @@
 {
-  "name": "hzk-cli",
+  "name": "hzkweb-cli",
   "version": "0.1.0",
   "bin": {
     "hzk": "./bin/hzk.js"
