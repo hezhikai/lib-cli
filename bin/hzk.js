@@ -15,6 +15,9 @@ program
   .usage('<command> [options]')
   .command('init', 'generate a new project from a template')
   .alias('i')
+  .command('lint', 'lint js/html/css')
+  .alias('l')
+
   // .command('release', 'release commonModule')
   // .alias('r')
   .parse(process.argv);
