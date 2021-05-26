@@ -1,3 +1,3 @@
-const prettierrc = require('lib-package').prettier;
+const prettierrc = require('hzkweb-package').prettier;
 
 module.exports = prettierrc;
