@@ -1,6 +1,6 @@
 {
   "name": "hzkweb-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "bin": {
     "hzk": "./bin/hzk.js"
   },
@@ -17,10 +17,13 @@
     "change-case": "^4.1.2",
     "download-git-repo": "^3.0.2",
     "eslint": "^7.27.0",
+    "eslint-config-hzkweb": "^0.1.0",
     "htmlhint": "^0.14.2",
+    "hzkweb-package": "^0.1.0",
     "inquirer": "^7.3.3",
     "ora": "^5.3.0",
-    "stylelint": "^13.13.1"
+    "stylelint": "^13.13.1",
+    "stylelint-config-hzkweb": "^0.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
