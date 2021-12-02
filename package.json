@@ -22,7 +22,7 @@
     "hzkweb-package": "^0.1.0",
     "inquirer": "^7.3.3",
     "ora": "^5.3.0",
-    "stylelint": "^9.10.1",
+    "stylelint": "^13.13.1",
     "stylelint-config-hzkweb": "^0.2.0"
   },
   "devDependencies": {
